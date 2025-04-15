@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>knowlog</name>
+    <version>1.0.0</version>
+    <description>A script dedicated for writing knowledge to KnowRob via ROS services.
+    </description>
+
+    <maintainer email="danielb@uni-bremen.de">Daniel Beßler</maintainer>
+    <maintainer email="sasjonge@uni-bremen.de">Sascha Jongebloed</maintainer>
+
+    <license>BSD-3</license>
+
+    <url type="website">https://github.com/knowrob/knowrob</url>
+    <url type="bugtracker">https://github.com/knowrob/knowrob/issues</url>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <depend>roslib</depend>
+    <depend>rospy</depend>
+    <depend>knowrob</depend>
+</package>
