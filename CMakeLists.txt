@@ -9,11 +9,10 @@ find_package(catkin REQUIRED)
 find_package(knowrob REQUIRED)
 
 catkin_package(
-   #INCLUDE_DIRS include
-   LIBRARIES ${PROJECT_NAME}
-   CATKIN_DEPENDS rospy
-   DEPENDS knowrob)
+	CATKIN_DEPENDS rospy
+	DEPENDS knowrob)
 
-catkin_install_python(PROGRAMS scripts/talker.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
+catkin_install_python(PROGRAMS
+	scripts/knowlog.py
+	DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
